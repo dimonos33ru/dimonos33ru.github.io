@@ -1,0 +1,32 @@
+.main_menu {
+	background-color: #1e5e98;
+}
+.itemMenu {
+	background-color: #049ae5;
+	text-align: center;
+	width: calc(100% / 12 * 3 - 30px);
+	margin: 0 15px;
+}
+.menu_item {
+	list-style: none;
+	display: flex;
+	width: 100%;
+}
+.menu_item li {
+	text-align: center;
+	width: calc(100% / 12 * 3 - 30px);
+	margin: 0 15px;
+}
+.menu_item > li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25rem;
+	padding: 20px 0;
+	transition: all 0.5s ease;
+}
+.menu_item > li a:hover {
+	background-color: #06467f;
+	transition: all 0.5s ease;
+}

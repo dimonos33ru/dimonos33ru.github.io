@@ -1,0 +1,11 @@
+.footer .row {
+	min-height: 10vh;
+}
+.footer_content {
+	background-color: rgb(131, 206, 141);
+	width: calc(100% / 12 * 12 - 30px);
+	margin: 15px 15px 0px 15px;
+}
+.footer_content h1 {
+	text-align: center;
+}

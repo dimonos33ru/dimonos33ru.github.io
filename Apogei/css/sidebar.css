@@ -1,0 +1,27 @@
+.name_items {
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 15px;
+	background-color: #1e5e98;
+}
+.sidebar_items {
+	font-size: 1.25rem;
+	font-weight: 400;
+	list-style: none;
+}
+/* .sidebar_items li {
+
+} */
+.sidebar_items li a {
+	display: block;
+	color: #232323;
+	text-decoration: none;
+	padding: 15px;
+	transition: all 0.2s ease;
+}
+.sidebar_items li a:hover {
+	background-color: #3174ae;
+	color: #fff;
+	transition: all 0.2s ease;
+}

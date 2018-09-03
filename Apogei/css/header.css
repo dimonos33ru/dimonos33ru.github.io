@@ -1,0 +1,116 @@
+.header {
+	padding: 10px 0;
+	background: rgb(246,246,247);
+background: -moz-linear-gradient(top, rgba(246,246,247,1) 0%, rgba(213,215,216,1) 100%);
+background: -webkit-linear-gradient(top, rgba(246,246,247,1) 0%,rgba(213,215,216,1) 100%);
+background: linear-gradient(to bottom, rgba(246,246,247,1) 0%,rgba(213,215,216,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f7', endColorstr='#d5d7d8',GradientType=0 );
+}
+.logo a img {
+	margin-bottom: -8px;
+}
+.header_item .fas { 	/* -------Иконки----- */
+	font-size: 1.6rem;
+	margin-right: 10px;
+}
+.header_item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.logo {
+	width: calc(100% / 12 * 3 - 30px);
+	margin: 0 15px;
+}
+.contacts {
+	width: calc(100% / 12 * 3.5 - 30px);
+	margin: 0 15px;
+}
+.phone {
+	width: calc(100% / 12 * 3.3 - 30px);
+	margin: 0 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.user_panel {
+	width: calc(100% / 12 * 2.2 - 30px);
+	margin: 0 15px;
+}
+
+.contacts a {
+	text-decoration: none;
+	font-style: italic;
+	font-weight: 700;
+	color: #4e4c4c;
+}
+.adress-location {
+	margin-left: 5px;
+}
+
+.phone-number {
+	font-size: 1.5rem;
+	font-weight: 700;
+	text-decoration: none;
+	color: #4e4c4c;
+}
+
+.sign_in a {
+	margin-top: 10px;
+	margin-left: 16px;
+	text-decoration: none ;
+	color: #4e4c4c;
+	position: relative;
+	display: inline-block;
+}
+.sign_in a:after {
+	display: block;
+	position: absolute;
+	content: "";
+	height: 2px;
+	width: 0;
+	background: #1a72c5;
+	transition: width 0.3s ease-in-out;
+	right: 0;
+	bottom: 5px;
+}
+.sign_in span {
+	font-style: italic;
+	font-size: 0.875rem;
+	font-weight: 700;
+	color: #1e5e98;
+	margin-left: 6px;
+}
+.sign_in a:hover:after{
+	width: 77%;
+}
+.sign_in:hover span {
+	color: #1a72c5;
+}
+
+.shoping {
+	display: flex;
+	align-items: center;
+}
+.shoping__cart .fa-shopping-cart {
+	font-size: 2.5625rem;
+	margin-right: 10px;
+	color: #aaaaaa;
+}
+.shoping__text {
+	line-height: 1.3rem;
+	padding: .6rem 0rem;
+}
+.cart-txt {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.125rem;
+	color: #1e5e98;
+	font-weight: 700;
+}
+.shoping__text__down {
+	font-weight: 400;
+	font-size: .8125rem;
+	font-style: italic;
+	color: #aaaaaa;
+}

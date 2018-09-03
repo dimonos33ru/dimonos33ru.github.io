@@ -1,0 +1,48 @@
+@import url("css/normalize.css");
+@import url("css/header.css");
+@import url("css/main_menu.css");
+@import url("css/search.css");
+@import url("css/main_block.css");
+@import url("css/footer.css");
+
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.page {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #232323;
+	font-size: 1rem;
+	line-height: 2rem;
+	background-image: url(img/bg-light-4863.png);
+}
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 30px;
+}.row {
+	display: flex;
+	margin: 0 -15px;
+}
+
+.color--grey {
+	color: #aaaaaa;
+}
+.color--blue {
+	color: #1e5e98; /* основной цвет */
+}
+.fs--italic {
+	font-style: italic;
+}
