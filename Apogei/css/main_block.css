@@ -6,7 +6,7 @@
 }
 
 .sidebar {
-	background-color: rgba(115, 153, 187, 0.3);
+	background-color: rgba(30, 94, 152, 0.2);
 	width: calc(100% / 12 * 3 - 30px);
 	margin: 0 15px;
 

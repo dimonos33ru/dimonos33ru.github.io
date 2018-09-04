@@ -1,0 +1,17 @@
+.color--grey {
+	color: #aaaaaa;
+}
+.color--blue {
+	color: #1e5e98; /* основной цвет */
+}
+.fs--italic {
+	font-style: italic;
+}
+
+.fas_blue:hover .fas {
+	color: #3174ae;
+	transition: all 0.3s ease;
+}
+/* ------подчеркивание справа------ */
+
+/* -------------------------------- */

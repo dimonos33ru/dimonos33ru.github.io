@@ -4,10 +4,6 @@
 	margin: 15px 15px;
 	background: #fff;
 }
-input, button {
-  outline: none;
-  background: transparent;
-}
 input {
 	font-size: 1rem;
   width: 100%;
@@ -49,13 +45,15 @@ button:before {
 	content: "\f002";
   font-size: 1.3rem;
 	color: rgb(185, 185, 185);
-	transition: all 0.5s ease;
+	-webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
 }
 .search_row:hover input {
 	box-shadow: 1px 5px 5px -5px black;
-	transition: all 0.5s ease;
-}
-.search_row:hover button:before {
+	-webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
 }
 input:focus {
 	box-shadow: 1px 5px 5px -5px black;

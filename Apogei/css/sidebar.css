@@ -1,27 +1,56 @@
-.name_items {
-	font-size: 1.4rem;
+.name_items h3{
+	font-size: 1.3rem;
+	font-weight: normal;
 	text-transform: uppercase;
 	color: #fff;
 	padding: 15px;
 	background-color: #1e5e98;
 }
 .sidebar_items {
-	font-size: 1.25rem;
-	font-weight: 400;
+	font-size: 1rem;
+	font-weight: 700;
 	list-style: none;
 }
-/* .sidebar_items li {
-
-} */
 .sidebar_items li a {
 	display: block;
+	position: relative;
 	color: #232323;
 	text-decoration: none;
 	padding: 15px;
+	-webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 }
 .sidebar_items li a:hover {
 	background-color: #3174ae;
 	color: #fff;
+	-webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
 	transition: all 0.2s ease;
+}
+ /* разделительная полоса между блоками */
+.sidebar_items li a::before {
+	position: absolute;
+	content: "";
+	width: 88%;
+	height: 1px;
+	background: #9fcdeb;
+	left: 19px;
+	bottom: -1px;
+}
+.sidebar_items li:last-child a:before {
+	height: 0px;
+}
+ /* треугольник в конце блока */
+.sidebar_items li a::after {
+	position: absolute;
+	font-family: "Font Awesome 5 Free";
+	content: "\f0da";
+	font-size: 1rem;
+	color: #fff;
+	right: 10px;
+	visibility: hidden;
+}
+.sidebar_items li a:hover:after {
+	visibility: visible;
 }
