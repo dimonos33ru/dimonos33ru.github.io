@@ -7,14 +7,13 @@
 @import url("css/footer.css");
 @import url("css/style.css");
 
-
 .page {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	color: #232323;
 	font-size: 1rem;
 	line-height: 2rem;
-	background-image: url(img/bg-light-4863.png);
+	background-image: url(img/background/light_wool.png);
 }
 .container {
 	max-width: 1280px;

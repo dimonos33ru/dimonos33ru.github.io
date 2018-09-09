@@ -1,0 +1,43 @@
+@import url("product_list.css");
+
+/* ==== Строка сортировки === */
+.sort {
+	display: flex;
+	border: 1px solid #aaaaaa;
+	border-width: 1px 0;
+	justify-content: space-between;
+	padding: 3px 0;
+}
+.names_sort a {
+	color: #1a72c5;
+	position: relative;
+}
+.names_sort a:after {
+	position: absolute;
+	font-family: "Font Awesome 5 Free";
+	content: "\f107";
+	font-size: 1rem;
+	color: #1a72c5;
+	right: -15px;
+	bottom: -7px;
+}
+.names_sort a:hover {
+	color: #d62700;
+	border-color: #d62700;
+}
+.names_sort a:hover:after {
+	color: #d62700;
+}
+
+.img_sort__list{
+	color: #aaaaaa;
+	font-size: 1.2rem;
+	padding-left: 5px;
+}
+.img_sort .fas:hover {
+	transform: scale(1.1, 1.1);
+	transition: all 0.2s ease;
+}
+.img_sort__focus {
+	color: #EA7D69;
+}

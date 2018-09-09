@@ -1,5 +1,5 @@
 @import url("sidebar.css");
-@import url("main_content.css");
+@import url("central_window.css");
 
 .main_block .row {
 	min-height: 60vh;
@@ -13,12 +13,12 @@
 	display: flex;
 	flex-direction: column;
 }
-.main_content {
-	background-color: #8aa8cf;
+.central_window {
+	background-color: transparent;
 	width: calc(100% / 12 * 9 - 30px);
 	margin: 0 15px;
 }
-.main_content h1 {
+.central_window h1 {
 	text-align: center;
 	margin-top: 350px;
 }
