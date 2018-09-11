@@ -1,5 +1,18 @@
+.img_firefighter {
+	display: flex;
+	justify-content: flex-end;
+}
+.img_firefighter img {
+	position: relative;
+	z-index: 2;
+	margin-top: 5rem;
+	margin-bottom: -4px;
+}
+
 .footer {
 	background-color: #5192CC;
+	position: relative;
+	z-index: 1;
 }
 .footer .row {
 	min-height: 10vh;
