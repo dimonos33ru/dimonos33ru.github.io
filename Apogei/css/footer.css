@@ -1,11 +1,10 @@
+.footer {
+	background-color: #5192CC;
+}
 .footer .row {
 	min-height: 10vh;
 }
 .footer_content {
-	background-color: #548000;
 	width: calc(100% / 12 * 12 - 30px);
 	margin: 15px 15px 0px 15px;
-}
-.footer_content h1 {
-	text-align: center;
 }

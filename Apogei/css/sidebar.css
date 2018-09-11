@@ -14,6 +14,7 @@
 .sidebar_items li a {
 	display: block;
 	position: relative;
+	background-color: rgba(30, 94, 152, 0.2);
 	color: #232323;
 	text-decoration: none;
 	padding: 15px;
@@ -32,7 +33,7 @@
 .sidebar_items li a::before {
 	position: absolute;
 	content: "";
-	width: 88%;
+	width: 90%;
 	height: 1px;
 	background: #9fcdeb;
 	left: 19px;

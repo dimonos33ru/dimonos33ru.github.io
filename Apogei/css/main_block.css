@@ -6,10 +6,8 @@
 }
 
 .sidebar {
-	background-color: rgba(30, 94, 152, 0.2);
 	width: calc(100% / 12 * 3 - 30px);
 	margin: 0 15px;
-
 	display: flex;
 	flex-direction: column;
 }
@@ -17,8 +15,4 @@
 	background-color: transparent;
 	width: calc(100% / 12 * 9 - 30px);
 	margin: 0 15px;
-}
-.central_window h1 {
-	text-align: center;
-	margin-top: 350px;
 }
