@@ -1,3 +1,4 @@
+/* изображение над футером */
 .img_firefighter {
 	display: flex;
 	justify-content: flex-end;
@@ -9,6 +10,7 @@
 	margin-bottom: -4px;
 }
 
+/* ===Подвал сайта==== */
 .footer {
 	background-color: #5192CC;
 	position: relative;
@@ -16,8 +18,48 @@
 }
 .footer .row {
 	min-height: 10vh;
+	align-items: flex-end;
+}
+.footer_col-1 {
+	display: flex;
+	align-items: flex-end;
+	width: calc(100% / 12 * 6 - 30px);
+	margin: 0 15px;
+}
+.footer_col-2 {
+	width: calc(100% / 12 * 3 - 30px);
+	margin: 0 15px;
 }
 .footer_content {
-	width: calc(100% / 12 * 12 - 30px);
-	margin: 15px 15px 0px 15px;
+	color: white;
+	font-weight: 400;
+	font-size: .9375rem;
+	padding: 2rem 0;
+}
+.footer_content a {
+	padding: 10px 15px;
+}
+.footer_content li::before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f105";
+  font-size: .9375rem;
+	color: white;
+}
+.footer_content a:hover {
+	border-bottom: 1px dashed white;
+	transition: all 0.2s ease;
+}
+.footer_content li:hover {
+	-o-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  -moz-transform: translateY(-2px);
+  -webkit-transform: translateY(-2px);  
+	transform: translateY(-2px);
+	transition: all 0.2s ease;
+}
+.copyrighted {
+	color: #CECECE;
+	font-size: .8125rem;
+	line-height: 1rem;
+	padding: 7px 15px;
 }
