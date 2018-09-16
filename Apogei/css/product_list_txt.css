@@ -1,0 +1,14 @@
+.product__list_txt ul {
+	margin-left: 20px;
+	margin-top: 20px;
+	list-style-type: square;
+}
+.production__list_txt__item:link {
+	color: #0055a3;
+}
+.production__list_txt__item:visited {
+	color: #7fa4c7;
+}
+.production__list_txt__item:hover {
+	text-decoration: underline;
+}

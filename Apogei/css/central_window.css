@@ -1,4 +1,6 @@
-@import url("product_list.css");
+@import url("product_gallery.css");/*Галерея изображений продукции*/
+@import url("product_list_img.css");/*список продукции с изображениями*/
+@import url("product_list_txt.css");/*список продукции, только текст*/
 
 /* ==== Строка сортировки === */
 .sort {
