@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Каталог продукции</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon1.ico" type="image/x-icon">
+    <meta name="theme-color" content="#000">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/regular.css" integrity="sha384-z3ccjLyn+akM2DtvRQCXJwvT5bGZsspS4uptQKNXNg778nyzvdMqiGcqHVGiAUyY" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/solid.css" integrity="sha384-rdyFrfAIC05c5ph7BKz3l5NG5yEottvO/DQ0dCrwD8gzeQDjYBHNr1ucUpQuljos" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css" integrity="sha384-u5J7JghGz0qUrmEsWzBQkfvc8nK3fUT7DCaQzNQ+q4oEXhGSx+P2OqjWsfIRB8QT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.min.css">
+  </head>
+  <body>
+    <!-- Шапка-->
+    <header class="header">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-3"><a href="index.html"><img class="logo img-fluid" src="img/logo.png" alt="Апогей"></a></div>
+          <div class="col-md-5">
+            <form class="header-search" action="#">
+              <input type="search" placeholder="Найти...">
+              <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+          </div>
+          <div class="col-md-3">
+            <div class="p-number justify-content-center"><i class="fas fa-phone"> </i>
+              <p>+7 (495) 783-17-76	</p>
+            </div>
+            <div class="h-mail justify-content-center"><i class="fas fa-envelope"></i>
+              <p>oooapogei@mail.ru</p>
+            </div>
+          </div>
+          <div class="col-md-1">
+            <div class="user"><i class="fas fa-user-alt"></i><i class="fas fa-caret-down"></i>
+              <ul class="dropdown-menu">
+                <li><p class="user_name">user_name</p></li>
+                <li><a href="#">Задачи</a></li>
+                <li><a href="#">Настройки</a></li>
+                <li><a href="#">Выйти</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Главное меню навигации-->
+    <nav class="navigate-top">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-md-3">
+            <ul class="catalog">
+              <li><a class="catalog_name" href="#">Каталог продукции </a>
+                <div class="mega_menu">
+                  <ul class="mega_menu-list">
+                    <li><a class="mega_menu-items" href="#">Клапаны пожарные</a></li>
+                    <li><a class="mega_menu-items" href="#">Клапаны запорные</a></li>
+                    <li><a class="mega_menu-items" href="#">Клапаны обратные</a></li>
+                    <li><a class="mega_menu-items" href="#">Штуцера</a></li>
+                    <li><a class="mega_menu-items" href="#">Гайка</a></li>
+                    <li><a class="mega_menu-items" href="#">Заглушки</a></li>
+                    <li><a class="mega_menu-items" href="#">Коллекторы</a></li>
+                    <li><a class="mega_menu-items" href="#">Краны</a></li>
+                    <li><a class="mega_menu-items" href="#">Головки соединительные пожарные</a></li>
+                    <li><a class="mega_menu-items" href="#">Стволы пожарные</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-8">
+            <ul class="menu">
+              <li> <a href="#">Главная</a></li>
+              <li> <a href="#">Создать заявку</a></li>
+              <li> <a href="#">Обратная связь</a></li>
+            </ul>
+          </div>
+          <div class="col-md-1 d-flex align-items-center justify-content-center car">
+            <div class="shop_car"><a href="#"><i class="fas fa-shopping-cart"></i><span class="badge badge-pill badge-info" id="badge-cart">0</span></a></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Навигация "Хлебные крошки"-->
+    <nav class="navigate-breadcrumb">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Главная</a></li>
+                <li class="breadcrumb-item"><a href="#">Каталог продукции</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Клапаны пожарные</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Подкатегории-->
+    <section class="wrepper-product_Item">
+      <div class="container">
+        <div class="row product_item-img">
+              <div class="col-lg-3 col-md-4 card-deck">
+                <div class="card">
+                  <div class="card-img-top"><img src="img/product_items/img1.png" alt="Клапан КПЛ 50-1">
+                    <div class="actions"><a class="add-cart" href="page-productDetail.html">В корзину</a><a class="view-item" href="page-productDetail.html">Подробнее</a></div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title">Клапан КПЛ 50-1</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 card-deck">
+                <div class="card">
+                  <div class="card-img-top"><img src="img/product_items/img1.png" alt="Клапан КПЛ 50-2">
+                    <div class="actions"><a class="add-cart" href="#">В корзину</a><a class="view-item" href="#">Подробнее</a></div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title">Клапан КПЛ 50-2</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 card-deck">
+                <div class="card">
+                  <div class="card-img-top"><img src="img/product_items/img1.png" alt="Клапан КПЛ 65-1">
+                    <div class="actions"><a class="add-cart" href="#">В корзину</a><a class="view-item" href="#">Подробнее</a></div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title">Клапан КПЛ 65-1</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 card-deck">
+                <div class="card">
+                  <div class="card-img-top"><img src="img/product_items/img1.png" alt="Клапан КПЛ 65-2">
+                    <div class="actions"><a class="add-cart" href="#">В корзину</a><a class="view-item" href="#">Подробнее</a></div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title">Клапан КПЛ 65-2</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 card-deck">
+                <div class="card">
+                  <div class="card-img-top"><img src="img/product_items/img1.png" alt="Клапан КПЛМ 50-1">
+                    <div class="actions"><a class="add-cart" href="#">В корзину</a><a class="view-item" href="#">Подробнее</a></div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title">Клапан КПЛМ 50-1</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 card-deck">
+                <div class="card">
+                  <div class="card-img-top"><img src="img/product_items/img1.png" alt="Клапан КПЛМ 50-2">
+                    <div class="actions"><a class="add-cart" href="#">В корзину</a><a class="view-item" href="#">Подробнее</a></div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title">Клапан КПЛМ 50-2</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 card-deck">
+                <div class="card">
+                  <div class="card-img-top"><img src="img/product_items/img1.png" alt="Клапан КПЛМ 65-2">
+                    <div class="actions"><a class="add-cart" href="#">В корзину</a><a class="view-item" href="#">Подробнее</a></div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title">Клапан КПЛМ 65-2</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 card-deck">
+                <div class="card">
+                  <div class="card-img-top"><img src="img/product_items/img1.png" alt="Клапан КПЛП 50">
+                    <div class="actions"><a class="add-cart" href="#">В корзину</a><a class="view-item" href="#">Подробнее</a></div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title">Клапан КПЛП 50</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 card-deck">
+                <div class="card">
+                  <div class="card-img-top"><img src="img/product_items/img1.png" alt="Клапан КПЛП 65">
+                    <div class="actions"><a class="add-cart" href="#">В корзину</a><a class="view-item" href="#">Подробнее</a></div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title">Клапан КПЛП 65</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 card-deck">
+                <div class="card">
+                  <div class="card-img-top"><img src="img/product_items/img1.png" alt="Клапан КПЧ 50-1">
+                    <div class="actions"><a class="add-cart" href="#">В корзину</a><a class="view-item" href="#">Подробнее</a></div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title">Клапан КПЧ 50-1</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 card-deck">
+                <div class="card">
+                  <div class="card-img-top"><img src="img/product_items/img1.png" alt="Клапан КПЧ 50-2">
+                    <div class="actions"><a class="add-cart" href="#">В корзину</a><a class="view-item" href="#">Подробнее</a></div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title">Клапан КПЧ 50-2</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 card-deck">
+                <div class="card">
+                  <div class="card-img-top"><img src="img/product_items/img1.png" alt="Клапан КПЧ 65-1">
+                    <div class="actions"><a class="add-cart" href="#">В корзину</a><a class="view-item" href="#">Подробнее</a></div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title">Клапан КПЧ 65-1</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 card-deck">
+                <div class="card">
+                  <div class="card-img-top"><img src="img/product_items/img1.png" alt="Клапан КПЧ 65-2">
+                    <div class="actions"><a class="add-cart" href="#">В корзину</a><a class="view-item" href="#">Подробнее</a></div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title">Клапан КПЧ 65-2</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 card-deck">
+                <div class="card">
+                  <div class="card-img-top"><img src="img/product_items/img1.png" alt="Клапан КПЧМ 50-1">
+                    <div class="actions"><a class="add-cart" href="#">В корзину</a><a class="view-item" href="#">Подробнее</a></div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title">Клапан КПЧМ 50-1</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 card-deck">
+                <div class="card">
+                  <div class="card-img-top"><img src="img/product_items/img1.png" alt="Клапан КПЧМ 65-1">
+                    <div class="actions"><a class="add-cart" href="#">В корзину</a><a class="view-item" href="#">Подробнее</a></div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title">Клапан КПЧМ 65-1</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 card-deck">
+                <div class="card">
+                  <div class="card-img-top"><img src="img/product_items/img1.png" alt="Клапан КПАЛ 50-1">
+                    <div class="actions"><a class="add-cart" href="#">В корзину</a><a class="view-item" href="#">Подробнее</a></div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title">Клапан КПАЛ 50-1</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 card-deck">
+                <div class="card">
+                  <div class="card-img-top"><img src="img/product_items/img1.png" alt="Клапан КПАЛ 65-1">
+                    <div class="actions"><a class="add-cart" href="#">В корзину</a><a class="view-item" href="#">Подробнее</a></div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-title">Клапан КПАЛ 65-1</div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </section>
+    <!-- Нумерация страниц-->
+    <nav class="nav-pagination">
+      <ul class="pagination">
+        <li class="page-item pagination__disabled"><a class="page-link" href="#">&laquo</a></li>
+        <li class="page-item pagination__active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">4</a></li>
+        <li class="page-item"><a class="page-link" href="#">&raquo</a></li>
+      </ul>
+    </nav>
+    <!-- Подвал сайта-->
+    <footer>
+      <div class="footer-top">
+        <div class="container">
+          <div class="row justify-content-end firefighter"><img class="img-fluid" src="img/img_footer1.png" alt="firefighter"></div>
+        </div>
+      </div>
+      <div class="footer-down">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 d-flex align-items-end"><img class="img-fluid" src="img/img_footer2.png" alt="klapan">
+              <p class="copyrighted">
+                &copy ООО «Апогей» 2003-2018 <br>Лидер по производству пожарных кранов и клапанов</p>
+            </div>
+            <div class="col-md-2 offset-md-1">
+              <nav class="footer-menu">
+                <ul>
+                  <li><a href="#">О компании</a></li>
+                  <li><a href="#">Контакты</a></li>
+                  <li><a href="#">Схема проезда</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-md-2 offset-md-1">
+              <nav class="footer-menu">
+                <ul>
+                  <li><a href="#">В разработке</a></li>
+                  <li><a href="#">В разработке</a></li>
+                  <li><a href="#">В разработке</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Стрелка вверх-->
+    <div class="top_arrow"><i class="fas fa-angle-up" title='Наверх'></i></div>
+    <!-- Окно чата-->
+    <div class="chat_wrepper">
+      <div class="chat">
+        <div class="chat__head">
+          <div class="chat__head-caption">Чат @Апогей</div>
+        </div>
+        <div class="chat__body">
+          <div class="chat__body__contact"><span class="chat__body__contact-status" title="Онлайн"><i class="fas fa-circle"></i></span><span class="chat__body__contact-name" title="Разработчик">Админ</span></div>
+          <div class="chat__body__contact"><span class="chat__body__contact-status" title="Онлайн"><i class="fas fa-circle"></i></span><span class="chat__body__contact-name" title="Конструктор">Мартынов Андрей</span></div>
+          <div class="chat__body__contact"><span class="chat__body__contact-status" title="Был сегодня в 14:55"><i style="color:#fb6262" class="fas fa-circle"></i></span><span class="chat__body__contact-name" title="Технолог">Дмитрий Викторович</span></div>
+          <div class="chat__body__contact"><span class="chat__body__contact-status" title="Был сегодня в 12:00"><i style="color:#fb6262" class="fas fa-circle"></i></span><span class="chat__body__contact-name" title="Директор производства">Пялин Сергей</span></div>
+          <div class="chat__body__contact"><span class="chat__body__contact-status" title="Был сегодня в 9:30"><i style="color:#fb6262" class="fas fa-circle"></i></span><span class="chat__body__contact-name" title="Технолог">Юля</span></div>
+        </div>
+        <div class="chat__footer"></div>
+      </div>
+      <div class="dialog">
+        <div class="dialog__head">
+          <div class="dialog__head__name"><span class="dialog__head__name-status"><i class="fas fa-circle"></i></span><span class="dialog__head__name-lable">Мартынов Андрей</span></div>
+          <div class="dialog__head__close"><span>X</span></div>
+        </div>
+        <div class="dialog__body">
+          <div class="dialog__body__message">
+            <div class="dialog__body__message__info">
+              <div class="dialog__body__message__info-from"><span>Админ</span></div>
+              <div class="dialog__body__message__info-datetime"><span class="date">Сегодня</span><span class="time">12:03</span></div>
+            </div>
+            <div class="dialog__body__message__textblock"><span>Привет! Как дела?</span></div>
+          </div>
+          <div class="dialog__body__message">
+            <div class="dialog__body__message__info message-in">
+              <div class="dialog__body__message__info-from"><span>Мартынов Андрей</span></div>
+              <div class="dialog__body__message__info-datetime"><span class="date">Сегодня</span><span class="time">12:05</span></div>
+            </div>
+            <div class="dialog__body__message__textblock textblock-in"><span>Привет! Взял мачтера на т-44))</span></div>
+          </div>
+        </div>
+        <div class="dialog__footer">
+          <form class="dialog__footer-input" action="#" method="">
+            <textarea id="input" name="messege" cols="36" rows="1"></textarea>
+            <button type="submit"><i class="fas fa-arrow-left"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="js/scripts.min.js"></script>
+  </body>
+</html>

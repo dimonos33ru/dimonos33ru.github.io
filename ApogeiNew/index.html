@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Главная страница</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon1.ico" type="image/x-icon">
+    <meta name="theme-color" content="#000">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/regular.css" integrity="sha384-z3ccjLyn+akM2DtvRQCXJwvT5bGZsspS4uptQKNXNg778nyzvdMqiGcqHVGiAUyY" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/solid.css" integrity="sha384-rdyFrfAIC05c5ph7BKz3l5NG5yEottvO/DQ0dCrwD8gzeQDjYBHNr1ucUpQuljos" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css" integrity="sha384-u5J7JghGz0qUrmEsWzBQkfvc8nK3fUT7DCaQzNQ+q4oEXhGSx+P2OqjWsfIRB8QT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.min.css">
+  </head>
+  <body>
+    <!-- Шапка-->
+    <header class="header">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-3"><a href="index.html"><img class="logo img-fluid" src="img/logo.png" alt="Апогей"></a></div>
+          <div class="col-md-5">
+            <form class="header-search" action="#">
+              <input type="search" placeholder="Найти...">
+              <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+          </div>
+          <div class="col-md-3">
+            <div class="p-number justify-content-center"><i class="fas fa-phone"> </i>
+              <p>+7 (495) 783-17-76	</p>
+            </div>
+            <div class="h-mail justify-content-center"><i class="fas fa-envelope"></i>
+              <p>oooapogei@mail.ru</p>
+            </div>
+          </div>
+          <div class="col-md-1">
+            <div class="user"><i class="fas fa-user-alt"></i><i class="fas fa-caret-down"></i>
+              <ul class="dropdown-menu">
+                <li><p class="user_name">user_name</p></li>
+                <li><a href="#">Задачи</a></li>
+                <li><a href="#">Настройки</a></li>
+                <li><a href="#">Выйти</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Главное меню навигации-->
+    <nav class="navigate-top">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-md-3">
+            <ul class="catalog">
+              <li><a class="catalog_name" href="#">Каталог продукции </a>
+                <div class="mega_menu">
+                  <ul class="mega_menu-list">
+                    <li><a class="mega_menu-items" href="#">Клапаны пожарные</a></li>
+                    <li><a class="mega_menu-items" href="#">Клапаны запорные</a></li>
+                    <li><a class="mega_menu-items" href="#">Клапаны обратные</a></li>
+                    <li><a class="mega_menu-items" href="#">Штуцера</a></li>
+                    <li><a class="mega_menu-items" href="#">Гайка</a></li>
+                    <li><a class="mega_menu-items" href="#">Заглушки</a></li>
+                    <li><a class="mega_menu-items" href="#">Коллекторы</a></li>
+                    <li><a class="mega_menu-items" href="#">Краны</a></li>
+                    <li><a class="mega_menu-items" href="#">Головки соединительные пожарные</a></li>
+                    <li><a class="mega_menu-items" href="#">Стволы пожарные</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-8">
+            <ul class="menu">
+              <li> <a href="#">Главная</a></li>
+              <li> <a href="#">Создать заявку</a></li>
+              <li> <a href="#">Обратная связь</a></li>
+            </ul>
+          </div>
+          <div class="col-md-1 d-flex align-items-center justify-content-center car">
+            <div class="shop_car"><a href="#"><i class="fas fa-shopping-cart"></i><span class="badge badge-pill badge-info" id="badge-cart">0</span></a></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Навигация "Хлебные крошки"-->
+    <nav class="navigate-breadcrumb">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#"> Главная</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Каталог продукции</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Главные категории-->
+    <section class="wrepper-main">
+      <div class="container">
+        <div class="row product_list-img">
+              <div class="col-lg-3 col-md-4 card-deck"><a class="card" href="page-productsItem.html"><img class="card-img-top" src="img/product_items/img1.png" alt="Клапаны пожарные">
+                  <div class="card-body">
+                    <div class="card-title">Клапаны пожарные</div>
+                  </div></a></div>
+              <div class="col-lg-3 col-md-4 card-deck"><a class="card" href="#"><img class="card-img-top" src="img/product_items/img2.png" alt="Клапаны запорные">
+                  <div class="card-body">
+                    <div class="card-title">Клапаны запорные</div>
+                  </div></a></div>
+              <div class="col-lg-3 col-md-4 card-deck"><a class="card" href="#"><img class="card-img-top" src="img/product_items/img3.png" alt="Клапаны обратные">
+                  <div class="card-body">
+                    <div class="card-title">Клапаны обратные</div>
+                  </div></a></div>
+              <div class="col-lg-3 col-md-4 card-deck"><a class="card" href="#"><img class="card-img-top" src="img/product_items/img4.png" alt="Штуцера">
+                  <div class="card-body">
+                    <div class="card-title">Штуцера</div>
+                  </div></a></div>
+              <div class="col-lg-3 col-md-4 card-deck"><a class="card" href="#"><img class="card-img-top" src="img/product_items/img5.png" alt="Гайка">
+                  <div class="card-body">
+                    <div class="card-title">Гайка</div>
+                  </div></a></div>
+              <div class="col-lg-3 col-md-4 card-deck"><a class="card" href="#"><img class="card-img-top" src="img/product_items/img6.png" alt="Заглушки">
+                  <div class="card-body">
+                    <div class="card-title">Заглушки</div>
+                  </div></a></div>
+              <div class="col-lg-3 col-md-4 card-deck"><a class="card" href="#"><img class="card-img-top" src="img/product_items/img7.png" alt="Коллекторы">
+                  <div class="card-body">
+                    <div class="card-title">Коллекторы</div>
+                  </div></a></div>
+              <div class="col-lg-3 col-md-4 card-deck"><a class="card" href="#"><img class="card-img-top" src="img/product_items/img8.png" alt="Краны">
+                  <div class="card-body">
+                    <div class="card-title">Краны</div>
+                  </div></a></div>
+              <div class="col-lg-3 col-md-4 card-deck"><a class="card" href="#"><img class="card-img-top" src="img/product_items/img9.png" alt="Головки соединительные пожарные">
+                  <div class="card-body">
+                    <div class="card-title">Головки соединительные пожарные</div>
+                  </div></a></div>
+              <div class="col-lg-3 col-md-4 card-deck"><a class="card" href="#"><img class="card-img-top" src="img/product_items/img10.png" alt="Стволы пожарные">
+                  <div class="card-body">
+                    <div class="card-title">Стволы пожарные</div>
+                  </div></a></div>
+        </div>
+      </div>
+    </section>
+    <!-- Подвал сайта-->
+    <footer>
+      <div class="footer-top">
+        <div class="container">
+          <div class="row justify-content-end firefighter"><img class="img-fluid" src="img/img_footer1.png" alt="firefighter"></div>
+        </div>
+      </div>
+      <div class="footer-down">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 d-flex align-items-end"><img class="img-fluid" src="img/img_footer2.png" alt="klapan">
+              <p class="copyrighted">
+                &copy ООО «Апогей» 2003-2018 <br>Лидер по производству пожарных кранов и клапанов</p>
+            </div>
+            <div class="col-md-2 offset-md-1">
+              <nav class="footer-menu">
+                <ul>
+                  <li><a href="#">О компании</a></li>
+                  <li><a href="#">Контакты</a></li>
+                  <li><a href="#">Схема проезда</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-md-2 offset-md-1">
+              <nav class="footer-menu">
+                <ul>
+                  <li><a href="#">В разработке</a></li>
+                  <li><a href="#">В разработке</a></li>
+                  <li><a href="#">В разработке</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Стрелка вверх-->
+    <div class="top_arrow"><i class="fas fa-angle-up" title='Наверх'></i></div>
+    <!-- Окно чата-->
+    <div class="chat_wrepper">
+      <div class="chat">
+        <div class="chat__head">
+          <div class="chat__head-caption">Чат @Апогей</div>
+        </div>
+        <div class="chat__body">
+          <div class="chat__body__contact"><span class="chat__body__contact-status" title="Онлайн"><i class="fas fa-circle"></i></span><span class="chat__body__contact-name" title="Разработчик">Админ</span></div>
+          <div class="chat__body__contact"><span class="chat__body__contact-status" title="Онлайн"><i class="fas fa-circle"></i></span><span class="chat__body__contact-name" title="Конструктор">Мартынов Андрей</span></div>
+          <div class="chat__body__contact"><span class="chat__body__contact-status" title="Был сегодня в 14:55"><i style="color:#fb6262" class="fas fa-circle"></i></span><span class="chat__body__contact-name" title="Технолог">Дмитрий Викторович</span></div>
+          <div class="chat__body__contact"><span class="chat__body__contact-status" title="Был сегодня в 12:00"><i style="color:#fb6262" class="fas fa-circle"></i></span><span class="chat__body__contact-name" title="Директор производства">Пялин Сергей</span></div>
+          <div class="chat__body__contact"><span class="chat__body__contact-status" title="Был сегодня в 9:30"><i style="color:#fb6262" class="fas fa-circle"></i></span><span class="chat__body__contact-name" title="Технолог">Юля</span></div>
+        </div>
+        <div class="chat__footer"></div>
+      </div>
+      <div class="dialog">
+        <div class="dialog__head">
+          <div class="dialog__head__name"><span class="dialog__head__name-status"><i class="fas fa-circle"></i></span><span class="dialog__head__name-lable">Мартынов Андрей</span></div>
+          <div class="dialog__head__close"><span>X</span></div>
+        </div>
+        <div class="dialog__body">
+          <div class="dialog__body__message">
+            <div class="dialog__body__message__info">
+              <div class="dialog__body__message__info-from"><span>Админ</span></div>
+              <div class="dialog__body__message__info-datetime"><span class="date">Сегодня</span><span class="time">12:03</span></div>
+            </div>
+            <div class="dialog__body__message__textblock"><span>Привет! Как дела?</span></div>
+          </div>
+          <div class="dialog__body__message">
+            <div class="dialog__body__message__info message-in">
+              <div class="dialog__body__message__info-from"><span>Мартынов Андрей</span></div>
+              <div class="dialog__body__message__info-datetime"><span class="date">Сегодня</span><span class="time">12:05</span></div>
+            </div>
+            <div class="dialog__body__message__textblock textblock-in"><span>Привет! Взял мачтера на т-44))</span></div>
+          </div>
+        </div>
+        <div class="dialog__footer">
+          <form class="dialog__footer-input" action="#" method="">
+            <textarea id="input" name="messege" cols="36" rows="1"></textarea>
+            <button type="submit"><i class="fas fa-arrow-left"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="js/scripts.min.js"></script>
+  </body>
+</html>
