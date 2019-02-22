@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="utf-8">
+    <title>Главная страница</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.png" type="image/x-icon">
+    <meta name="theme-color" content="#000">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&amp;amp;subset=cyrillic">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.min.css">
+  </head>
+  <body class="index-page">
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="row header__top">
+            <nav class="navigation col-lg-5 col-sm-4 d-none d-sm-block">
+              <ul class="navigation-top navigation-top_left">
+                <li class="navigation-top__item"><a class="navigation-top__link navigation-top__link_active" href="#">Главная</a></li>
+                <li class="navigation-top__item"><a class="navigation-top__link" href="#">О нас</a></li>
+              </ul>
+            </nav>
+            <div class="logo col-lg-2 col-sm-4"><img class="logo__img" src="img/content/logo.png" alt="logo"></div>
+            <nav class="navigation col-lg-5 col-sm-4 d-none d-sm-block">
+              <ul class="navigation-top">
+                <li class="navigation-top__item"><a class="navigation-top__link" href="#">Меню</a></li>
+                <li class="navigation-top__item"><a class="navigation-top__link" href="#">Блог</a></li>
+                <li class="navigation-top__item"><a class="navigation-top__link" href="#">Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__body">
+            <h1 class="header__caption caption">Добро пожаловать в Be Latte</h1>
+            <p class="header__text text text_white">Наслаждайтесь свежим новым подходом к кофе.</br>Я не могу решить всех твоих проблем, но я обещаю сделать твою жизнь лучше.</p><span class="header__quote quote">&#8220;&ndash; Твой кофе &#8221;</span><a class="header__button button button_white" href="#">Наше меню</a>
+          </div>
+        </div>
+        <div class="burger d-block d-sm-none">
+          <input class="burger__check" id="checkBurger" type="checkbox">
+          <label class="burger__contain" for="checkBurger">
+            <div class="burger__element"></div>
+            <div class="burger__element"></div>
+            <div class="burger__element"></div>
+          </label>
+        </div>
+        <nav class="mobile-menu">
+          <ul class="mobile-menu__inner">
+            <li class="mobile-menu__item"><a class="mobile-menu__link mobile-menu__link_active" href="#">Главная</a></li>
+            <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">О нас</a></li>
+            <li class="mobile-menu__item"><a class="mobile-menu__link" href="#menu">Меню</a></li>
+            <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Блог</a></li>
+            <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Контакты</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="content">
+        <section class="s-tagline">
+          <div class="container">
+            <h2 class="tagline__title title title_section">Кофе никогда ещё не был <span class="title_mark">таким вкусным!</span></h2>
+            <div class="row tagline">
+              <p class="tagline__text text col-lg-10 offset-lg-1">Кофейня с десертами собственного изготовления и большим количеством напитков, а также Кафе с европейской кухней (паста и хлеб собственного приготовления, бургеры, пицца, салаты, супы и горячее). </p>
+            </div>
+            <div class="icon-divider"><img class="icon-divider__img" src="img/svg/coffee_icon.svg" alt="divider"></div>
+          </div>
+        </section>
+        <section class="s-menu">
+          <div class="container">
+            <h2 class="title title_section" id="menu">Меню</h2>
+            <div class="row menu-card">
+              <div class="card col-lg-4 col-md-6"><a class="card__head" href="#">
+                  <h3 class="card__title title">Кофе</h3>
+                  <div class="card__bg"><img class="card__img" src="img/content/menu-coffe.jpg" alt="">
+                    <div class="card__overlay"></div>
+                  </div></a>
+                <div class="card__body">
+                  <div class="card__price">
+                    <p class="card__name">Латте</p>
+                    <p class="card__value">$3.00</p>
+                  </div>
+                  <div class="card__price">
+                    <p class="card__name">Мокко</p>
+                    <p class="card__value">$3.25</p>
+                  </div>
+                  <div class="card__price">
+                    <p class="card__name">Эспрессо</p>
+                    <p class="card__value">$3.75</p>
+                  </div>
+                  <div class="card__price">
+                    <p class="card__name">Капучино</p>
+                    <p class="card__value">$3.00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card col-lg-4 col-md-6"><a class="card__head" href="#">
+                  <h3 class="card__title title">Чай</h3>
+                  <div class="card__bg"><img class="card__img" src="img/content/menu-tea.jpg" alt="">
+                    <div class="card__overlay"></div>
+                  </div></a>
+                <div class="card__body">
+                  <div class="card__price">
+                    <p class="card__name">Чай со льдом</p>
+                    <p class="card__value">$1.75</p>
+                  </div>
+                  <div class="card__price">
+                    <p class="card__name">Холодный напиток</p>
+                    <p class="card__value">$2.25</p>
+                  </div>
+                  <div class="card__price">
+                    <p class="card__name">Зеленый жасмин</p>
+                    <p class="card__value">$2.00</p>
+                  </div>
+                  <div class="card__price">
+                    <p class="card__name">Травяная мята</p>
+                    <p class="card__value">$1.99</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card col-lg-4 col-md-6"><a class="card__head" href="#">
+                  <h3 class="card__title title">Десерты</h3>
+                  <div class="card__bg"><img class="card__img" src="img/content/menu-desserts.jpg" alt="">
+                    <div class="card__overlay"></div>
+                  </div></a>
+                <div class="card__body">
+                  <div class="card__price">
+                    <p class="card__name">Тирамису</p>
+                    <p class="card__value">$2.00</p>
+                  </div>
+                  <div class="card__price">
+                    <p class="card__name">Сырный пирог</p>
+                    <p class="card__value">$2.65</p>
+                  </div>
+                  <div class="card__price">
+                    <p class="card__name">Пирожное "Черный лес"</p>
+                    <p class="card__value">$3.99</p>
+                  </div>
+                  <div class="card__price">
+                    <p class="card__name">Пирожное "Брауни"</p>
+                    <p class="card__value">$4.50</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row menu-button"><a class="button button_black" href="#">Помотреть все меню</a></div>
+            <div class="icon-divider"><img class="icon-divider__img" src="img/svg/coffee_icon.svg" alt="divider"></div>
+          </div>
+        </section>
+        <section class="s-testimonials">
+          <div class="container-fluid">
+            <h2 class="title title_section">Отзывы</h2>
+            <div class="row no-gutters testimonials">
+              <div class="col-xl-8 col-lg-7 col-md-6 testimonials__bg"></div>
+              <div class="col-xl-4 col-lg-5 col-md-6 testimonials__reviews">
+                <div class="testimonials__quote"></div>
+                <div class="slider">
+                  <div class="slider__item">
+                    <div class="slider__head"><img class="slider__img" src="img/content/testimonials-1.jpg" alt="отзыв">
+                      <p class="slider__name">Денис Б.</p>
+                    </div>
+                    <div class="slider__body">
+                      <p class="slider__text text text_white">Отличное заведение с отличным обслуживанием! Невероятной вкусноты коктейли и закуски. Отдельно хочется отметить подход официантов к каждому посетителю, всё на высшем уровне! Рекомендую!!!</p>
+                    </div>
+                  </div>
+                  <div class="slider__item">
+                    <div class="slider__head"><img class="slider__img" src="img/content/testimonials-2.jpg" alt="отзыв">
+                      <p class="slider__name">AsiyaW</p>
+                    </div>
+                    <div class="slider__body">
+                      <p class="slider__text text text_white">Творческим людям нужно питаться. В этом кафе можно питать тело, успокоить, разбудить душу.</p>
+                    </div>
+                  </div>
+                  <div class="slider__item">
+                    <div class="slider__head"><img class="slider__img" src="img/content/testimonials-3.jpg" alt="отзыв">
+                      <p class="slider__name">Ким В.</p>
+                    </div>
+                    <div class="slider__body">
+                      <p class="slider__text text text_white">Обожаю это кафе, здесь приятная и комфортная обстановка, атмосфера позитивная и у них как-то уютно по-домашнему. В кафе очень милый интерьер, всегда чисто, посуда, в которой подается заказ тоже чистая, а это для меня очень важно.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="icon-divider"><img class="icon-divider__img" src="img/svg/coffee_icon.svg" alt="divider"></div>
+          </div>
+        </section>
+        <section class="s-location">
+          <div class="container-fluid">
+            <h2 class="title title_section">Наш адрес</h2>
+            <div class="row no-gutters location">
+              <div class="col-xl-4 col-lg-5 col-md-6 location-schedule">
+                <div class="location-schedule__address">
+                  <h3 class="location-schedule__caption">Адрес</h3>
+                  <p class="location-schedule__text">Приходите к нам по адресу: Волочаевская улица, 12Ас1А, Москва, 111033</p>
+                </div>
+                <div class="location-schedule__hours">
+                  <h3 class="location-schedule__caption">Часы работы</h3>
+                  <div class="location-schedule__openhours">
+                    <p class="location-schedule__text">Пн - Сб:</p>
+                    <p class="location-schedule__hour">7:00-20:00</p>
+                  </div>
+                  <div class="location-schedule__openhours">
+                    <p class="location-schedule__text">Вс:</p>
+                    <p class="location-schedule__hour">7:00-17:00</p>
+                  </div>
+                </div>
+                <div class="location-schedule__happyhour"> 
+                  <h3 class="location-schedule__caption">Счастливые часы</h3>
+                  <div class="location-schedule__openhours">
+                    <p class="location-schedule__text">Пн - Пт:</p>
+                    <p class="location-schedule__hour">16:00-18:00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-8 col-lg-7 col-md-6 location-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d817.0463407807033!2d37.68164735131182!3d55.7555912372969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x856151dcc7c78cc9!2sCafe+latte!5e0!3m2!1sru!2sru!4v1550514130359" width="100%" height="425" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="row flex-column">
+            <div class="footer-social"><i class="fab fa-facebook-f footer-social__item"></i><i class="fab fa-twitter footer-social__item"></i><i class="fab fa-instagram footer-social__item"></i></div>
+            <h4 class="footer-text text text_white">Волочаевская улица, 12Ас1А, Москва, 111033</h4>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/scripts.min.js"></script>
+  </body>
+</html>
