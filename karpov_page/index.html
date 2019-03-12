@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="utf-8">
+    <title>Главная страница</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <meta name="theme-color" content="#000">
+    <link rel="stylesheet" href="css/main.min.css">
+  </head>
+  <body class="index-page">
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="row">
+            <nav class="navbar"><a class="navbar__logo" href="index.html"><img class="navbar__img" src="img/svg/logo.svg" alt="Логотип">
+                <p class="navbar__name">Dmitry<span>Karpov</span></p></a>
+              <input class="burger__check" id="checkBurger" type="checkbox">
+              <label class="burger__contain" for="checkBurger">
+                <div class="burger__element"></div>
+                <div class="burger__element"></div>
+                <div class="burger__element"></div>
+              </label>
+              <ul class="navbar__list">
+                <li class="navbar__item"><a class="navbar__link" href="#">Главная</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">Портфолио</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">Что я могу</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">Отзывы</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <section class="s-home">
+          <div class="container">
+            <div class="row">
+              <div class="home">
+                <h1 class="home__title">Разработка сайта с нуля				</h1>
+                <h3 class="home__subtitle">Создание сайтов для вашего бизнеса по <span class="home__subtitle_marker">доступным</span> ценам</h3>
+                <div class="home__button">
+                  <button class="button button_orange">Портфолио</button>
+                  <button class="button">Заказать проект</button>
+                </div>
+                <ul class="home__product-var">
+                  <li class="home__product-item">
+                    <svg class="svg-sprite-icon icon-television home__svg">
+                      <use xlink:href="img/svg/symbol/sprite.svg#television"></use>
+                    </svg>
+                    <p class="home__product-name">Персональный сайт</p>
+                  </li>
+                  <li class="home__product-item">
+                    <svg class="svg-sprite-icon icon-visit-card home__svg">
+                      <use xlink:href="img/svg/symbol/sprite.svg#visit-card"></use>
+                    </svg>
+                    <p class="home__product-name">Сайт-визитка</p>
+                  </li>
+                  <li class="home__product-item">
+                    <svg class="svg-sprite-icon icon-briefcase home__svg">
+                      <use xlink:href="img/svg/symbol/sprite.svg#briefcase"></use>
+                    </svg>
+                    <p class="home__product-name">Малый бизнес</p>
+                  </li>
+                  <li class="home__product-item">
+                    <svg class="svg-sprite-icon icon-landing home__svg">
+                      <use xlink:href="img/svg/symbol/sprite.svg#landing"></use>
+                    </svg>
+                    <p class="home__product-name">Лендинг</p>
+                  </li>
+                  <li class="home__product-item">
+                    <svg class="svg-sprite-icon icon-shop home__svg">
+                      <use xlink:href="img/svg/symbol/sprite.svg#shop"></use>
+                    </svg>
+                    <p class="home__product-name">Интернет-магазин</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="footer">FOOTER</footer>
+    </div>
+    <script src="js/scripts.min.js"></script>
+  </body>
+</html>
