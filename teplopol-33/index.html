@@ -83,19 +83,21 @@
             <div class="row">
               <div class="col-md-12">
                 <form class="form-requisition">
-                  <h3 class="form-requisition__title">Заполните заявку и получите бесплатный расчет полов</h3>
+                  <div class="form-requisition__title">
+                    <h3>Заполните заявку и мы вам перезвоним</h3>
+                  </div>
                   <div class="form-requisition__input-line">
-                    <div class="form-requisition__input-wrap">
+                    <div class="form-requisition__input-wrap form__input-wrap">
                       <label><span>Введите ваше имя</span>
-                        <input class="form-requisition__input" type="text" name="text" placeholder="Имя" required>
+                        <input class="form-requisition__input form__input" type="text" name="name" placeholder="Имя" required>
                       </label>
                     </div>
-                    <div class="form-requisition__input-wrap">
+                    <div class="form-requisition__input-wrap form__input-wrap">
                       <label><span>Введите номер телефона</span>
-                        <input class="form-requisition__input" type="text" name="text" placeholder="Номер телефона" required>
+                        <input class="form-requisition__input form__input" type="text" name="phone" placeholder="Номер телефона" required>
                       </label>
                     </div>
-                    <button class="form-requisition__submit btn" type="submit">Получить расчет</button>
+                    <button class="form-requisition__submit btn" type="submit">Отправить заявку</button>
                   </div><small class="form-requisition__info">* - Заявка вас ни к чему не обязывает, наш менеджер свяжется с вами в течении часа. Ваши контакты не передаем третьим лицам.</small>
                 </form>
               </div>
@@ -164,6 +166,58 @@
                   <h4 class="advantages__title">Скидки постоянным клиентам</h4>
                   <div class="advantages__text">Приготовим для Вас индивидуальное предложение!</div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section s-calculate">
+          <div class="container">
+            <div class="row calculate">
+              <div class="col-md-6">
+                <div class="calculate__text-wrap">
+                  <div class="calculate__title"> 
+                    <h2>Расчитать стоимость водяного теплого пола</h2>
+                  </div>
+                  <div class="calculate__text">
+                    <p>Узнайте цену теплого пола для вашей <br> квартиры, дома или дачи</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <form class="calculate__form">
+                  <div class="calculate__input-wrap form__input-wrap">
+                    <label><span>Площадь помещения</span>
+                      <input class="calculate__input form__input" type="number" name="room_area" placeholder="Введите число" required>
+                    </label>
+                  </div>
+                  <div class="calculate__input-wrap form__input-wrap">
+                    <label><span>Количество помещений</span>
+                      <input class="calculate__input form__input" type="number" name="number_area" placeholder="Введите число" required>
+                    </label>
+                  </div>
+                  <div class="calculate__input-wrap form__input-wrap">
+                    <label><span>Введите ваше имя</span>
+                      <input class="calculate__input form__input" type="text" name="name" placeholder="Имя" required>
+                    </label>
+                  </div>
+                  <div class="calculate__input-wrap form__input-wrap">
+                    <label><span>Введите вашу фамилию</span>
+                      <input class="calculate__input form__input" type="text" name="surname" placeholder="Фамилия" required>
+                    </label>
+                  </div>
+                  <div class="calculate__input-wrap form__input-wrap">
+                    <label><span>Введите ваш телефон</span>
+                      <input class="calculate__input form__input" type="tel" name="phone" placeholder="Телефон">
+                    </label>
+                  </div>
+                  <div class="calculate__input-wrap form__input-wrap">
+                    <label><span>Введите ваш email</span>
+                      <input class="calculate__input form__input" type="email" name="email" placeholder="Email">
+                    </label>
+                  </div>
+                  <div class="calculate__dummy"></div>
+                  <button class="calculate__submit btn" type="submit">Узнать цену пола</button>
+                </form>
               </div>
             </div>
           </div>
