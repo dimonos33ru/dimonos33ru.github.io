@@ -32,7 +32,7 @@
                 <div class="header__contacts"><a class="header__phone" href="tel:+79190255625"><i class="fas fa-phone"></i> +7 (919) 025-56-25</a><a class="header__mail" href="mailto:teplopolinfo@mail.ru"><i class="fas fa-envelope"></i> teplopolinfo@mail.ru</a></div>
               </div>
               <div class="col-md-2">
-                <div class="header__requisition"><a class="header__btn btn" href="#">Оставить заявку</a></div>
+                <div class="header__requisition"><a class="header__btn btn" data-fancybox="modal-requisition" data-src="#modal-requisition" href="javascript:;">Оставить заявку</a></div>
               </div>
             </div>
           </div>
@@ -43,10 +43,12 @@
               <nav class="main-nav">
                 <ul class="main-nav__wrap">
                   <li class="main-nav__item"><a class="main-nav__link" href="#">Главная</a></li>
-                  <li class="main-nav__item"><a class="main-nav__link" href="#">О компании</a></li>
-                  <li class="main-nav__item"><a class="main-nav__link" href="#">Наши услуги</a></li>
+                  <li class="main-nav__item"><a class="main-nav__link" href="#services">Наши услуги</a></li>
+                  <li class="main-nav__item"><a class="main-nav__link" href="#calculate">Расчет стоимости</a></li>
+                  <li class="main-nav__item"><a class="main-nav__link" href="#projects">Наши работы</a></li>
                   <li class="main-nav__item"><a class="main-nav__link" href="#">Прайс-лист</a></li>
-                  <li class="main-nav__item"><a class="main-nav__link" href="#">Контакты</a></li>
+                  <li class="main-nav__item"><a class="main-nav__link" href="#about">О компании</a></li>
+                  <li class="main-nav__item"><a class="main-nav__link" href="#contacts">Контакты</a></li>
                 </ul>
               </nav>
             </div>
@@ -104,30 +106,30 @@
             </div>
           </div>
         </section>
-        <section class="section s-what-do">
+        <section class="section s-services" id="services">
           <div class="container">
             <div class="section__title">
               <h2>Мы предлагаем услуги</h2>
             </div>
-            <div class="row what-do">
+            <div class="row services">
               <div class="col-md-3">
-                <div class="what-do__card"><img class="what-do__img" src="./img/content/warm_floor.jpg" alt="Водяной теплый пол">
-                  <div class="what-do__bottom"><a class="what-do__link" href="#">Водяной теплый пол</a></div>
+                <div class="services__card"><img class="services__img" src="./img/content/warm_floor.jpg" alt="Водяной теплый пол">
+                  <div class="services__bottom"><a class="services__link" href="#">Водяной теплый пол</a></div>
                 </div>
               </div>
               <div class="col-md-3">
-                <div class="what-do__card"><img class="what-do__img" src="./img/content/heating2.jpg" alt="Радиаторное отопление">
-                  <div class="what-do__bottom"><a class="what-do__link" href="#">Радиаторное отопление</a></div>
+                <div class="services__card"><img class="services__img" src="./img/content/heating2.jpg" alt="Радиаторное отопление">
+                  <div class="services__bottom"><a class="services__link" href="#">Радиаторное отопление</a></div>
                 </div>
               </div>
               <div class="col-md-3">
-                <div class="what-do__card"><img class="what-do__img" src="./img/content/water_system2.jpg" alt="Водоснабжение">
-                  <div class="what-do__bottom"><a class="what-do__link" href="#">Водоснабжение</a></div>
+                <div class="services__card"><img class="services__img" src="./img/content/water_system2.jpg" alt="Водоснабжение">
+                  <div class="services__bottom"><a class="services__link" href="#">Водоснабжение</a></div>
                 </div>
               </div>
               <div class="col-md-3">
-                <div class="what-do__card"><img class="what-do__img" src="./img/content/plumbing.jpg" alt="Канализация">
-                  <div class="what-do__bottom"><a class="what-do__link" href="#">Водоотведение</a></div>
+                <div class="services__card"><img class="services__img" src="./img/content/plumbing.jpg" alt="Канализация">
+                  <div class="services__bottom"><a class="services__link" href="#">Водоотведение</a></div>
                 </div>
               </div>
             </div>
@@ -170,13 +172,13 @@
             </div>
           </div>
         </section>
-        <section class="section s-calculate">
+        <section class="section s-calculate" id="calculate">
           <div class="container">
             <div class="row calculate">
               <div class="col-md-6">
                 <div class="calculate__text-wrap">
                   <div class="calculate__title"> 
-                    <h2>Расчитать стоимость водяного теплого пола</h2>
+                    <h2>Рассчитать стоимость водяного теплого пола</h2>
                   </div>
                   <div class="calculate__text">
                     <p>Узнайте цену теплого пола для вашей <br> квартиры, дома или дачи</p>
@@ -222,7 +224,7 @@
             </div>
           </div>
         </section>
-        <section class="section s-projects">
+        <section class="section s-projects" id="projects">
           <div class="container">
             <div class="section__title">
               <h2>Наши работы</h2>
@@ -309,7 +311,7 @@
             </div>
           </div>
         </section>
-        <section class="section s-about">
+        <section class="section s-about" id="about">
           <div class="container-fluid">
             <div class="row about">
               <div class="col-md-6">
@@ -331,7 +333,7 @@
             </div>
           </div>
         </section>
-        <section class="s-contacts">
+        <section class="s-contacts" id="contacts">
           <div class="container">
             <div class="row">
               <div class="contacts">
@@ -361,6 +363,25 @@
           </div>
         </div>
       </footer>
+      <div class="hidden">
+        <div class="popup" style="display:none" id="modal-requisition">
+          <h2>Оставьте заявку</h2>
+          <p>Оставьте заявку прямо сейчас и в ближайшее время наш менеджер свяжется с вами.</p>
+          <form action="#">
+            <div class="popup__input-wrap form__input-wrap">
+              <label><span>Введите ваше имя</span>
+                <input class="form__input" type="text" name="name" placeholder="Имя" required>
+              </label>
+            </div>
+            <div class="popup__input-wrap form__input-wrap">
+              <label><span>Введите ваш телефон</span>
+                <input class="form__input" type="tel" name="phone" placeholder="Телефон" required>
+              </label>
+            </div>
+            <button class="popup__submit btn" type="submit">Отправить заявку</button>
+          </form>
+        </div>
+      </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
