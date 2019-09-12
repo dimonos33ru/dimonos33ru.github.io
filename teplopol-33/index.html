@@ -10,7 +10,6 @@
     <link rel="shortcut icon" href="img/favicon/favicon.png" type="image/x-icon">
     <meta name="theme-color" content="#000">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/v4-shims.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/main.min.css">
   </head>
@@ -21,7 +20,7 @@
           <div class="container">
             <div class="row header__wrap">
               <div class="col-md-3">
-                <div class="header__logo"><a class="header__link" href="#" title="teplopol-33.ru"><img class="header__img" src="img/content/logo.png" alt="logo" srcset=""></a></div>
+                <div class="header__logo"><a class="header__link" href="index.html" title="teplopol-33.ru"><img class="header__img" src="img/content/logo.png" alt="logo" srcset=""></a></div>
               </div>
               <div class="col-md-3">
                 <div class="header__info">
@@ -32,7 +31,7 @@
                 <div class="header__contacts"><a class="header__phone" href="tel:+79190255625"><i class="fas fa-phone"></i> +7 (919) 025-56-25</a><a class="header__mail" href="mailto:teplopolinfo@mail.ru"><i class="fas fa-envelope"></i> teplopolinfo@mail.ru</a></div>
               </div>
               <div class="col-md-2">
-                <div class="header__requisition"><a class="header__btn btn" data-fancybox="modal-requisition" data-src="#modal-requisition" href="javascript:;">Оставить заявку</a></div>
+                <div class="header__requisition"><a class="header__btn btn" data-fancybox data-src="#modal-requisition" href="javascript:;">Оставить заявку</a></div>
               </div>
             </div>
           </div>
@@ -40,15 +39,15 @@
         <div class="header__nav">
           <div class="container">
             <div class="row">
-              <nav class="main-nav">
-                <ul class="main-nav__wrap">
-                  <li class="main-nav__item"><a class="main-nav__link" href="#">Главная</a></li>
-                  <li class="main-nav__item"><a class="main-nav__link" href="#services">Наши услуги</a></li>
-                  <li class="main-nav__item"><a class="main-nav__link" href="#calculate">Расчет стоимости</a></li>
-                  <li class="main-nav__item"><a class="main-nav__link" href="#projects">Наши работы</a></li>
-                  <li class="main-nav__item"><a class="main-nav__link" href="#">Прайс-лист</a></li>
-                  <li class="main-nav__item"><a class="main-nav__link" href="#about">О компании</a></li>
-                  <li class="main-nav__item"><a class="main-nav__link" href="#contacts">Контакты</a></li>
+              <nav class="menu-home">
+                <ul class="menu-home__wrap">
+                  <li class="menu-home__item"><a class="menu-home__link menu-home__link--current" href="index.html">Главная</a></li>
+                  <li class="menu-home__item"><a class="menu-home__link" href="#services">Наши услуги</a></li>
+                  <li class="menu-home__item"><a class="menu-home__link" href="#calculate">Расчет стоимости</a></li>
+                  <li class="menu-home__item"><a class="menu-home__link" href="#projects">Наши работы</a></li>
+                  <li class="menu-home__item"><a class="menu-home__link" href="#">Прайс-лист</a></li>
+                  <li class="menu-home__item"><a class="menu-home__link" href="#about">О компании</a></li>
+                  <li class="menu-home__item"><a class="menu-home__link" href="#contacts">Контакты</a></li>
                 </ul>
               </nav>
             </div>
@@ -57,132 +56,144 @@
       </header>
       <main class="content">
         <section class="slider-main">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="owl-carousel owl-theme" id="slider-main">
-                <div class="slider-main__item slider-main__item--bg1">
-                  <h2 class="slider-main__title">Водяной тёплый пол</h2>
-                  <p class="slider-main__description">Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты. Дорогу рукописи собрал свое курсивных то запятой грустный от всех путь!</p>
-                </div>
-                <div class="slider-main__item slider-main__item--bg2">
-                  <h2 class="slider-main__title">Радиаторное отопление</h2>
-                  <p class="slider-main__description">Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты. Дорогу рукописи собрал свое курсивных то запятой грустный от всех путь!</p>
-                </div>
-                <div class="slider-main__item slider-main__item--bg3">
-                  <h2 class="slider-main__title">Водоснабжение</h2>
-                  <p class="slider-main__description">Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты. Дорогу рукописи собрал свое курсивных то запятой грустный от всех путь!</p>
-                </div>
-                <div class="slider-main__item slider-main__item--bg4">
-                  <h2 class="slider-main__title">Водоотведение</h2>
-                  <p class="slider-main__description">Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты. Дорогу рукописи собрал свое курсивных то запятой грустный от всех путь!</p>
-                </div>
+          <div class="owl-carousel owl-theme" id="slider-main">
+            <div class="slider-main__item"><img class="slider-main__img" src="./img/content/slides/slide-pol.jpg" alt="Водяной тёплый пол">
+              <div class="container slider-main__wrapper">
+                <h2 class="slider-main__title">Водяной тёплый пол</h2>
+                <p class="slider-main__description">Водяной теплый пол от лучшего производителя теплых полов <b>Thermotech</b> . Водяной теплый пол довольно прост в монтаже, ведь при его установке специальные гибкие трубы просто укладываются на теплоизоляцию под бетонную стяжку, поверх которой кладется ламинат, плитка или любое другое покрытие.</p>
               </div>
             </div>
-          </div>
-        </section>
-        <section class="s-form-requisition">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <form class="form-requisition">
-                  <div class="form-requisition__title">
-                    <h3>Заполните заявку и мы вам перезвоним</h3>
-                  </div>
-                  <div class="form-requisition__input-line">
-                    <div class="form-requisition__input-wrap form__input-wrap">
-                      <label><span>Введите ваше имя</span>
-                        <input class="form-requisition__input form__input" type="text" name="name" placeholder="Имя" required>
-                      </label>
-                    </div>
-                    <div class="form-requisition__input-wrap form__input-wrap">
-                      <label><span>Введите номер телефона</span>
-                        <input class="form-requisition__input form__input" type="text" name="phone" placeholder="Номер телефона" required>
-                      </label>
-                    </div>
-                    <button class="form-requisition__submit btn" type="submit">Отправить заявку</button>
-                  </div><small class="form-requisition__info">* - Заявка вас ни к чему не обязывает, наш менеджер свяжется с вами в течении часа. Ваши контакты не передаем третьим лицам.</small>
-                </form>
+            <div class="slider-main__item"><img class="slider-main__img" src="./img/content/slides/slide-otopl.jpg" alt="Радиаторное отопление">
+              <div class="container slider-main__wrapper">
+                <h2 class="slider-main__title">Радиаторное отопление</h2>
+                <p class="slider-main__description">Радиаторное отопление — неотъемлемая часть эффективного и экономичного водяного отопления загородного дома. Радиаторное отопление удобно и экологично. Радиаторы (или более привычно — батареи) не сжигают кислород, работают бесшумно и могут быть установлены во всех жилых помещениях.</p>
+              </div>
+            </div>
+            <div class="slider-main__item"><img class="slider-main__img" src="./img/content/slides/water_system.jpg" alt="Водоснабжение">
+              <div class="container slider-main__wrapper">
+                <h2 class="slider-main__title">Водоснабжение</h2>
+                <p class="slider-main__description">Система водоснабжения представляет собой комплекс сооружений для обеспечения определенной (данной) группы потребителей (данного объекта) водой в требуемых количествах и требуемого качества.</p>
+              </div>
+            </div>
+            <div class="slider-main__item"><img class="slider-main__img" src="./img/content/slides/water-dispos.jpg" alt="Водоотведение">
+              <div class="container slider-main__wrapper">
+                <h2 class="slider-main__title">Водоотведение</h2>
+                <p class="slider-main__description">Грамотно спланированное и обустроенное водоотведение в частном доме обеспечивает комфортную жизнь хозяевам, гарантирует длительный срок эксплуатации здания. Ведь современный коттедж — это не просто сооружение, а комплекс взаимосвязанных систем.</p>
               </div>
             </div>
           </div>
         </section>
         <section class="section s-services" id="services">
           <div class="container">
-            <div class="section__title">
-              <h2>Мы предлагаем услуги</h2>
-            </div>
+            <h2 class="section__title">Мы предлагаем услуги</h2>
             <div class="row services">
               <div class="col-md-3">
-                <div class="services__card"><img class="services__img" src="./img/content/warm_floor.jpg" alt="Водяной теплый пол">
-                  <div class="services__bottom"><a class="services__link" href="#">Водяной теплый пол</a></div>
-                </div>
+                <div class="services__card"><a class="services__link" href="page-service.html"><img class="services__img" src="./img/content/warm_floor.jpg" alt="Водяной теплый пол">
+                    <div class="services__bottom">
+                      <h3 class="services__title">Монтаж водяного&nbsp;теплого&nbsp;пола</h3>
+                    </div></a></div>
               </div>
               <div class="col-md-3">
-                <div class="services__card"><img class="services__img" src="./img/content/heating2.jpg" alt="Радиаторное отопление">
-                  <div class="services__bottom"><a class="services__link" href="#">Радиаторное отопление</a></div>
-                </div>
+                <div class="services__card"><a class="services__link" href="page-service.html"><img class="services__img" src="./img/content/heating2.jpg" alt="Радиаторное отопление">
+                    <div class="services__bottom">
+                      <h3 class="services__title">Монтаж <br> радиаторов</h3>
+                    </div></a></div>
               </div>
               <div class="col-md-3">
-                <div class="services__card"><img class="services__img" src="./img/content/water_system2.jpg" alt="Водоснабжение">
-                  <div class="services__bottom"><a class="services__link" href="#">Водоснабжение</a></div>
-                </div>
+                <div class="services__card"><a class="services__link" href="page-service.html"><img class="services__img" src="./img/content/water_system2.jpg" alt="Водоснабжение">
+                    <div class="services__bottom">
+                      <h3 class="services__title">Монтаж <br> водоснабжения</h3>
+                    </div></a></div>
               </div>
               <div class="col-md-3">
-                <div class="services__card"><img class="services__img" src="./img/content/plumbing.jpg" alt="Канализация">
-                  <div class="services__bottom"><a class="services__link" href="#">Водоотведение</a></div>
-                </div>
+                <div class="services__card"><a class="services__link" href="page-service.html"><img class="services__img" src="./img/content/plumbing.jpg" alt="Канализация">
+                    <div class="services__bottom">
+                      <h3 class="services__title">Установка водоотведения</h3>
+                    </div></a></div>
               </div>
             </div>
           </div>
         </section>
         <section class="section s-advantages">
           <div class="container">
-            <div class="section__title">
-              <h2>Наши преимущества</h2>
-            </div>
+            <h2 class="section__title">Почему нам доверяют</h2>
             <div class="row">
-              <div class="col-md-3">
+              <div class="col-md-4">
                 <div class="advantages">
-                  <div class="advantages__icon"><i class="fas fa-thumbs-up"></i></div>
-                  <h4 class="advantages__title">Высокое качество</h4>
-                  <div class="advantages__text">Мы заботимся о наших клиентах и гарантируем лучше качество</div>
+                  <div class="advantages__icon"><i class="fas fa-medal"></i></div>
+                  <div class="advantages__right">
+                    <h4 class="advantages__title">Опыт более 10 лет</h4>
+                    <p class="advantages__text">Компания «Теплопол» работает на рынке нашего региона с&nbsp;2009&nbsp;года</p>
+                  </div>
                 </div>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-4">
                 <div class="advantages">
-                  <div class="advantages__icon"><i class="fas fa-history"></i></div>
-                  <h4 class="advantages__title">Минимальные сроки</h4>
-                  <div class="advantages__text">Постоянно работаем над увеличением скорости выполнения заказов</div>
+                  <div class="advantages__icon"><i class="fas fa-clipboard-check"></i></div>
+                  <div class="advantages__right">
+                    <h4 class="advantages__title">Работаем по договору</h4>
+                    <p class="advantages__text">В нашей компании нет никаких предоплат! Платите только после окончания монтажных работ</p>
+                  </div>
                 </div>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-4">
                 <div class="advantages">
-                  <div class="advantages__icon"><i class="fas fa-dollar-sign"></i></div>
-                  <h4 class="advantages__title">Низкая цена</h4>
-                  <div class="advantages__text">Мы всегда готовы предложить своим клиентам одни из лучших цен</div>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="advantages">
-                  <div class="advantages__icon"><i class="fas fa-piggy-bank"></i></div>
-                  <h4 class="advantages__title">Скидки постоянным клиентам</h4>
-                  <div class="advantages__text">Приготовим для Вас индивидуальное предложение!</div>
+                  <div class="advantages__icon"><i class="fas fa-dolly"></i></div>
+                  <div class="advantages__right">
+                    <h4 class="advantages__title">Проверенный поставщик</h4>
+                    <p class="advantages__text">Компания Thermotech - один из ведущих поставщиков напольного отопления в&nbsp;Скандинавии</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
+        <section class="section s-work-scheme">
+          <div class="container">
+            <h2 class="section__title">Схема работы с нами</h2>
+            <div class="row work-scheme">
+              <div class="col-md-6">
+                <div class="work-scheme__block">
+                  <div class="work-scheme__icon"><i class="fas fa-envelope-open-text"></i></div>
+                  <h4 class="work-scheme__title">1. Заявка</h4>
+                  <p class="work-scheme__text">Вы оставляете заявку или звоните&nbsp;по&nbsp;телефону&nbsp;<a href="tel:+79190255625"  class="link"><b>+7 (919) 025-56-25</b></a> <br>в любое удобное время.</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="work-scheme__block">
+                  <div class="work-scheme__icon"><i class="fas fa-clipboard-list"></i></div>
+                  <h4 class="work-scheme__title">2. Проект и договор</h4>
+                  <p class="work-scheme__text">Инженер составит точную смету на необходимые матейралы, оборудование и все работы.</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="work-scheme__block">
+                  <div class="work-scheme__icon"><i class="fas fa-truck"></i></div>
+                  <h4 class="work-scheme__title">3. Поставка оборудования</h4>
+                  <p class="work-scheme__text">Мы поставляем качественное и проверенное оборудование, одной из ведущих производителей оборудования для водяного напольного отопления в Европе, шведской компании <a href="https://www.thermotech.ru/" class="link" target="_blank"><b>Thermotech&nbsp;(Термотех)</b></a>.</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="work-scheme__block">
+                  <div class="work-scheme__icon"><i class="fas fa-tools"></i></div>
+                  <h4 class="work-scheme__title">4. Монтажные работы</h4>
+                  <p class="work-scheme__text">Производим монтаж и запуск в течении 3 - 5 дней. Монтаж выполняется профильными специалистами. Строгий контроль качества работ на каждом этапе.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="line"></div>
         <section class="section s-calculate" id="calculate">
           <div class="container">
             <div class="row calculate">
               <div class="col-md-6">
                 <div class="calculate__text-wrap">
-                  <div class="calculate__title"> 
-                    <h2>Рассчитать стоимость водяного теплого пола</h2>
-                  </div>
+                  <h2 class="calculate__title">Рассчитать стоимость водяного теплого пола</h2>
                   <div class="calculate__text">
                     <p>Узнайте цену теплого пола для вашей <br> квартиры, дома или дачи</p>
                   </div>
+                  <div class="calculate__btn btn btn--white">Узнать подробнее</div>
                 </div>
               </div>
               <div class="col-md-6">
@@ -217,18 +228,19 @@
                       <input class="calculate__input form__input" type="email" name="email" placeholder="Email">
                     </label>
                   </div>
-                  <div class="calculate__dummy"></div>
+                  <div class="calculate__input-wrap">
+                    <p>* - поля обязательные для заполнения</p>
+                  </div>
                   <button class="calculate__submit btn" type="submit">Узнать цену пола</button>
                 </form>
               </div>
             </div>
           </div>
         </section>
-        <section class="section s-projects" id="projects">
+        <section class="section section--bg s-projects" id="projects">
           <div class="container">
-            <div class="section__title">
-              <h2>Наши работы</h2>
-            </div>
+            <h2 class="section__title">Наши работы</h2>
+            <hr class="hr-line">
             <div class="section__description">
               <p>За 10 лет нашей работы нами смонтированы и успешно функционируют системы напольного и радиаторного отопления, а также системы холодного и горячего водоснабжения на более 40 объектах. Это и коттеджи, и квартиры, и бани и даже животноводческая ферма! <br>Вот некоторые примеры нашей работы:</p>
             </div>
@@ -274,62 +286,30 @@
             </div>
           </div>
         </section>
-        <section class="section s-work-scheme">
-          <div class="container">
-            <div class="section__title">
-              <h2>Схема работы с нами</h2>
-            </div>
-            <div class="row work-scheme">
-              <div class="col-md-6">
-                <div class="work-scheme__block">
-                  <div class="work-scheme__icon"><i class="fas fa-paper-plane"></i></div>
-                  <h4 class="work-scheme__title">1. Заявка</h4>
-                  <p class="work-scheme__text">Вы оставляете заявку или звоните по телефону  <a href="tel:+79190255625"  class="phone"><b>+7 (919) 025-56-25</b></a> в любое удобное время.</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="work-scheme__block">
-                  <div class="work-scheme__icon"><i class="fas fa-clipboard-list"></i></div>
-                  <h4 class="work-scheme__title">2. Проект и договор</h4>
-                  <p class="work-scheme__text">Инженер составит точную смету на необходимые матейралы, оборудование и все работы.</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="work-scheme__block">
-                  <div class="work-scheme__icon"><i class="fas fa-truck"></i></div>
-                  <h4 class="work-scheme__title">3. Поставка оборудования</h4>
-                  <p class="work-scheme__text">Мы поставляем качественное и проверенное оборудование, одной из ведущих производителей оборудования для водяного напольного отопления в Европе, шведской компании <a href="https://www.thermotech.ru/" class="link" target="_blank"><b>Thermotech (Термотех)</b></a>.</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="work-scheme__block">
-                  <div class="work-scheme__icon"><i class="fas fa-tools"></i></div>
-                  <h4 class="work-scheme__title">4. Монтажные работы</h4>
-                  <p class="work-scheme__text">Производим монтаж и запуск в течении 3 - 5 дней. Монтаж выполняется профильными специалистами. Строгий контроль качества работ на каждом этапе.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         <section class="section s-about" id="about">
           <div class="container-fluid">
             <div class="row about">
-              <div class="col-md-6">
-                <div class="about__img"></div>
-              </div>
-              <div class="col-md-6">
-                <div class="about__title">
-                  <h2>О компании</h2>
-                </div>
-                <div class="about__text">
-                  <p>Компания <strong>&#171;Теплопол&#187;</strong> (ИП Кротов Леонид Леонидович) работает на рынке нашего региона с 2009 года.</p>
-                  <p>Мы специализируемся на предоставлении высокопрофессиональных услуг по монтажу внутренних инженерных сетей: отопления, водоснабжения, канализации. Но наше главное направление — это проектирование, поставка оборудования, монтаж и обслуживание систем водяного напольного отопления или, проще говоря, водяного тёплого пола.</p>
-                  <p>Являясь официальным дилером, одного из ведущих производителей оборудования для водяного напольного отопления в Европе, шведской компании <a href="https://www.thermotech.ru/" target="_blank" style="color: #808080;"><b>Thermotech (Термотех)</b></a>, мы в состоянии профессионально решать любые задачи по монтажу напольных систем отопления для любых типов зданий: будь то коттедж, многоквартирный дом или административное здание.</p>
-                  <p>Наша главная задача - воплощение в жизнь идей и пожеланий наших клиентов с максимальным качеством и с использованием самых современных технологий.Ваши идеи, наши решения! Мы специализируюмся на оказании высококачественных услуг. Квалифицированные сотрудники внимательно изучат ваши потребности и предложат наиболее выгодные условия обслуживания.</p>
-                  <p>Все специалисты — профессионалы, которые любят свою работу. Вы можете смело довериться нам. Наша главная задача — воплощение в жизнь идей и пожеланий наших клиентов с максимальным исполнительским качеством с использованием новейших технологий.</p>
-                  <p>Мы работаем, вы отдыхаете!</p>
+              <div class="col-md-6 about__wrap">
+                <div class="about__inner">
+                  <div class="section__title about__title">
+                    <h2>О компании</h2>
+                  </div>
+                  <div class="about__text">
+                    <h3>Компания <strong>&#171;Теплопол&#187;</strong> (ИП Кротов Леонид Леонидович) работает на рынке нашего региона с 2009 года.</h3>
+                    <p>Мы специализируемся на предоставлении высокопрофессиональных услуг по монтажу внутренних инженерных сетей: отопления, водоснабжения, канализации. </p>
+                    <p>Но наше главное направление — это проектирование, поставка оборудования, монтаж и обслуживание систем водяного напольного отопления или, проще говоря, водяного тёплого пола.</p>
+                  </div>
+                  <div class="about__btn btn">Читать подробнее</div>
                 </div>
               </div>
+              <div class="col-md-6"><img class="about__img" src="./img/content/about-2.jpg" alt="о компании"></div>
+            </div>
+          </div>
+        </section>
+        <section class="section s-questions">
+          <div class="container">
+            <div class="questions">
+              <p class="questions__text">Остались вопросы? Задайте их сейчас, позвонив по телефону&nbsp;<a href="tel:+79190255625" class="questions__link"><b>+7 (919) 025-56-25</b></a> или через форму обратной связи</p><a class="questions__btn btn" data-fancybox data-src="#modal-requisition" href="javascript:;">Напишите нам</a>
             </div>
           </div>
         </section>
@@ -339,20 +319,21 @@
               <div class="contacts">
                 <h4 class="contacts__title">Контакты</h4>
                 <ul class="contacts__list">
-                  <li class="contacts__item">
+                  <li class="contacts__item"><i class="fas fa-phone"></i>
                     <h5>Телефон:</h5><a href="tel:+79190255625">+7 (919) 025-56-25</a>
                   </li>
-                  <li class="contacts__item">
+                  <li class="contacts__item"><i class="fas fa-map-marker-alt"></i>
                     <h5>Адрес:</h5>
                     <p>г. Муром, ул. Московская д.14</p>
                   </li>
-                  <li class="contacts__item">
+                  <li class="contacts__item"><i class="fas fa-at"></i>
                     <h5>Email:</h5><a href="mailto:teplopolinfo@mail.ru">teplopolinfo@mail.ru</a>
                   </li>
                 </ul>
               </div>
             </div>
-          </div><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3e320335013fd0d266686d9f78e94b52d990fdcb8b12710571539f8fdd72b581&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=false"></script>
+          </div>
+          <div id="YaMaps"></div>
         </section>
       </main>
       <footer class="footer">
