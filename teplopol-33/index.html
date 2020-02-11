@@ -198,40 +198,47 @@
               </div>
               <div class="col-md-6">
                 <form class="calculate__form">
-                  <div class="calculate__input-wrap form__input-wrap">
-                    <label><span>Площадь помещения</span>
-                      <input class="calculate__input form__input" type="number" name="room_area" placeholder="Введите число" required>
+                  <div class="form__input-wrap calculate__input-wrap">
+                    <label><span class="form__input-caption">Площадь помещения*</span>
+                      <input class="form__input" type="number" name="room_area" placeholder="Введите число, м2" required>
                     </label>
                   </div>
-                  <div class="calculate__input-wrap form__input-wrap">
-                    <label><span>Количество помещений</span>
-                      <input class="calculate__input form__input" type="number" name="number_area" placeholder="Введите число" required>
+                  <div class="form__input-wrap calculate__input-wrap">
+                    <label><span class="form__input-caption">Введите ваше имя*</span>
+                      <input class="form__input" type="text" name="name" placeholder="Имя" required>
                     </label>
                   </div>
-                  <div class="calculate__input-wrap form__input-wrap">
-                    <label><span>Введите ваше имя</span>
-                      <input class="calculate__input form__input" type="text" name="name" placeholder="Имя" required>
+                  <div class="form__input-wrap calculate__input-wrap">
+                    <label><span class="form__input-caption">Количество помещений*</span>
+                      <input class="form__input" type="number" name="number_area" placeholder="Введите число" required>
                     </label>
                   </div>
-                  <div class="calculate__input-wrap form__input-wrap">
-                    <label><span>Введите вашу фамилию</span>
-                      <input class="calculate__input form__input" type="text" name="surname" placeholder="Фамилия" required>
+                  <div class="form__input-wrap calculate__input-wrap">
+                    <label><span class="form__input-caption">Введите ваш телефон*</span>
+                      <input class="form__input" type="tel" name="phone" placeholder="Телефон">
                     </label>
                   </div>
-                  <div class="calculate__input-wrap form__input-wrap">
-                    <label><span>Введите ваш телефон</span>
-                      <input class="calculate__input form__input" type="tel" name="phone" placeholder="Телефон">
+                  <div class="form__input-wrap calculate__input-wrap"><span class="form__input-caption">Чертеж проекта</span>
+                    <div class="hint"><i class="far fa-question-circle hint-triger"></i>
+                      <div class="hint-popup">Прикрепите файл с чертежами, если они у вас есть. Если у вас не один файл, упакуйте их в архив и загрузите в форму.</div>
+                    </div>
+                    <input class="calculate__input-file" type="file" name="input-file-plan" id="customFileUpload">
+                    <label class="form__input calculate__label-file" for="customFileUpload">Выберите файл</label>
+                  </div>
+                  <div class="form__input-wrap calculate__input-wrap">
+                    <label><span class="form__input-caption">Введите ваш email*</span>
+                      <input class="form__input" type="email" name="email" placeholder="Email">
                     </label>
                   </div>
-                  <div class="calculate__input-wrap form__input-wrap">
-                    <label><span>Введите ваш email</span>
-                      <input class="calculate__input form__input" type="email" name="email" placeholder="Email">
+                  <div class="form__input-wrap calculate__details">
+                    <label><span class="form__input-caption">Подробнее</span>
+                      <textarea class="form__input" id="moreDetails" name="textarea-details" rows="3"></textarea>
                     </label>
                   </div>
                   <div class="calculate__input-wrap">
                     <p>* - поля обязательные для заполнения</p>
                   </div>
-                  <button class="calculate__submit btn" type="submit">Узнать цену пола</button>
+                  <button class="calculate__input-wrap btn" type="submit">Узнать цену пола</button>
                 </form>
               </div>
             </div>
@@ -361,6 +368,10 @@
             </div>
             <button class="popup__submit btn" type="submit">Отправить заявку</button>
           </form>
+        </div>
+        <div class="popup" style="display:none" id="modal-success">
+          <h2>Спасибо за Вашу заявку.</h2>
+          <p>В ближайшее время мы свяжемся с Вами.</p><i class="far fa-check-circle"></i>
         </div>
       </div>
     </div>
